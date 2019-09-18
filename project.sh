@@ -11,7 +11,8 @@ echo "cloning libft"
 git clone $giturl$lib.git
 
 echo "
-creating inc & src folder"
+creating inc folder
+creating src folder"
 mkdir inc src
 
 echo "creating Makefile"
