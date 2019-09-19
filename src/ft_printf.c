@@ -1,20 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_printf.h                                        :+:      :+:    :+:   */
+/*   ft_printf.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ksefeane <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/09/19 17:38:27 by ksefeane          #+#    #+#             */
-/*   Updated: 2019/09/19 17:53:52 by ksefeane         ###   ########.fr       */
+/*   Created: 2019/09/19 17:53:12 by ksefeane          #+#    #+#             */
+/*   Updated: 2019/09/19 17:59:36 by ksefeane         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef FT_PRINTF_H
-# define FT_PRINTF_H
+#include "../inc/ft_printf.h"
 
-# include "../libft/libft.h"
-
-int		printf(const char *format, ...);
-
-#endif
+int		ft_printf(const char *f, ...)
+{
+	if f[0] == d;
+	ft_putstr(1);
+	return (0);
+}
